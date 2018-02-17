@@ -1,0 +1,349 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    /*font-family: 'Abril Fatface', cursive;*/
+}
+.row-header{
+    margin:0px auto;
+    padding:0px auto;
+  
+}
+
+#career-bag{
+  background: url(http://www.vhspringfield.com/sites/vhspringfield_com/Uploads/iStock_000019371008Large.jpg);
+  color:#004d99;
+  text-decoration:bold;
+  text-align:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#about-bag{
+  background: url(http://www.vhspringfield.com/sites/vhspringfield_com/Uploads/iStock_000019371008Large.jpg);
+  color:#66b3ff;
+  background-repeat: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#contact-bag{
+  background: url(http://www.vhspringfield.com/sites/vhspringfield_com/Uploads/iStock_000019371008Large.jpg);
+  color:#66b3ff;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    min-height:400px;
+}
+
+}
+.row-footer{
+    background-color: #33ccff;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    height:400px;
+    background:#66b3ff;
+}    
+
+address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
+
+body{
+    padding:50px 0px 0px 0px;
+}
+
+.navbar-inverse {
+     background: white;
+     color:black;
+     height:50px;
+     border-color: transparent;
+    font-family: 'Lato', sans-serif;
+     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3); 
+}
+li>a{
+    color:black;
+}
+#carouselh{
+  position:relative;
+  font-weight:50px;
+  margin-top:100px;
+  font-size:60px;
+  color:#0066cc;
+  background-color: white;
+  opacity:0.7;
+}
+.h{
+    color:#66b3ff;
+    margin:auto;
+    font-size:30px;
+    postition:absolute;
+    font-family: 'Lato', sans-serif;
+}
+.row-footer > .row > .col-XS-8{
+    postion:absolute;
+    margin-left:10px;
+}
+#navbar{
+  float:right;
+}
+.navbar-header .navbar-toggle{
+    border-color:transperant;
+}
+.navbar-header>.h{
+ margin-left:10px !important;
+}
+.navbar-header .navbar-toggle .icon-bar {
+    background-color:#66b3ff ;
+    color:white;
+}
+.navbar-collapse .navbar-inverse .navbar-nav> li >a:visited{
+ color:black  !important ;
+}
+.navbar-inverse .navbar-nav> li >a:visited,.navbar-inverse .navbar-nav > .active > a:visited{
+ color:black  !important ;
+ pointer-events: none;
+}
+#drop:visited{
+  color:black !important;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover{
+    background: #66b3ff;
+    color:black;
+    text-decoration:none;
+}
+.navbar-inverse .navbar-nav > .open > a,
+ .navbar-inverse .navbar-nav > .open > a:hover{
+    background: #66b3ff;
+    color:black;
+    text-decoration:none;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a,
+.navbar-inverse .navbar-nav .open .dropdown-menu {
+    background-color: white;
+    color:black;
+    text-decoration:none;
+}
+.navbar-nav > li{
+  padding-left:10px;
+  padding-right:10px;
+}
+.navbar-inverse .navbar-nav > li >a{
+    color:black;
+}
+.navbar-inverse .navbar-nav > li >a:hover{
+    color:black;
+    text-decoration:none;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a:hover{
+    color:black;
+    background-color:#66b3ff;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a:visted{
+    color:black;
+}
+
+.slide1, .slide2, .slide3 {
+    min-height: 400px;
+    background-size: cover;
+    background-position: center center;
+}
+.slide1 {
+    background-image: url(http://paperpk.com/uploads/sub_category_img/1479201092892861508-small.jpg);
+}
+.slide2 {
+    background-image: url(http://healthnewsng.com/wp-content/uploads/2015/05/istock_doctor-with-kid.jpg);
+}
+.slide3 {
+    background-image: url(http://i.telegraph.co.uk/multimedia/archive/03465/Doc_2065962b_3465659b.jpg);
+}
+/* Carousel Fade Effect */
+.carousel.carousel-fade .item {
+    -webkit-transition: opacity 1s linear;
+    -moz-transition: opacity 1s linear;
+    -ms-transition: opacity 1s linear;
+    -o-transition: opacity 1s linear;
+    transition: opacity 1s linear;
+    opacity: .5;
+}
+.carousel.carousel-fade .active.item {
+    opacity: 1;
+}
+.carousel.carousel-fade .active.left,
+.carousel.carousel-fade .active.right {
+    left: 0;
+    z-index: 2;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.carousel-overlay {
+    position: absolute;
+    bottom: 100px;
+    right: 0;
+    left: 0;
+}
+
+@media only screen and (max-width:768px) {
+  #box1 {  
+      margin-top:10px !important;
+      margin-left:60px !important;
+      height:200px;
+      width:200px;
+  }
+    
+    #box2 {
+      margin-top:320px !important;
+      margin-left:60px !important;
+      height:200px;
+      width:200px;
+  }
+    #box3 {  
+      margin-top:630px !important;
+      margin-left:60px !important;
+      height:200px;
+      width:200px;
+  }
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  #carouselh{
+  position:relative;
+  font-weight:30px;
+  font-size:40px;
+  color:#0080ff;
+  background-color: white;
+  opacity:0.7;
+}
+#box1 {  
+      margin-top:10px !important;
+       margin-left:10px;
+      height:200px;
+      width:200px;
+      
+  }
+    
+    #box2 {
+      margin-top:320px !important;
+      margin-left:10px;
+      height:200px;
+      width:200px;
+      
+  }
+    #box3 {  
+      margin-top:630px !important;
+       margin-left:10px;
+      height:200px;
+      width:200px;
+       
+}
+
+}
+
+#shape1{
+    background-color:#66b3ff;
+    height:100px;
+    width:100px;
+    border-radius:5px;
+    box-shadow:0 15px 20px rgba(0, 0, 0, 0.3); 
+
+}
+#shape2{
+    background-color:#0080ff;
+    height:100px;
+    width:100px;
+    border-radius:5px;
+    box-shadow:0 15px 20px rgba(0, 0, 0, 0.3); 
+
+}
+#shp-con{
+    color:grey;
+    font-size:10px;
+    
+}
+.navbar-collapse{ 
+    background:white; 
+    border-top:none;
+    box-shadow:none;
+} 
+footer{
+    background:#cce6ff;
+}
+.carousel-inner{
+  width:100%;
+  max-height: 500px !important;
+}
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.polaroaid.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+#doc-in{
+    width:200px;
+}
+.dropdown-toggle{
+    background: white !important;
+
+}
+
+#subh{
+  color: #66b3ff;
+  font-size:50px;
+  text-align:center;
+}
+#address1{
+   font-size:25px;
+  color:black;
+  text-align:center;
+}
+#mat{
+  font-size: 20px;
+}
+.avoid-clicks {
+  pointer-events: none;
+}
+.navbar-nav > .dropdown > .dropdown-toggle > a:focus{
+  color: black !important;
+}
+
+.carousel-content {
+    color:#0080ff;
+    display:flex;
+    align-items:center;
+}
+
+#text-carousel {
+  width: 100%;
+  height: auto;
+  font-size:20px;
+  padding: 50px;
+}
+
+
+@media (max-width: 300px) {
+    html { font-size: 70%; }
+}
+
+@media (min-width: 500px) {
+    html { font-size: 80%; }
+}
+
+@media (min-width: 700px) {
+    html { font-size: 120%; }
+}
+
+@media (min-width: 1200px) {
+    html { font-size: 200%; }
+}
